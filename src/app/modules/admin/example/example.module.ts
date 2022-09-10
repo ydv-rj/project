@@ -6,6 +6,14 @@ const exampleRoutes: Route[] = [
     {
         path     : '',
         component: ExampleComponent
+    },
+    {
+        path     : '1',
+        component: ExampleComponent
+    },
+    {
+        path     : '2',
+        component: ExampleComponent
     }
 ];
 

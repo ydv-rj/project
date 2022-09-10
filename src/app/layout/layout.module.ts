@@ -3,8 +3,10 @@ import { LayoutComponent } from 'app/layout/layout.component';
 import { EnterpriseLayoutModule } from 'app/layout/layouts/horizontal/enterprise/enterprise.module';
 import { SettingsModule } from 'app/layout/common/settings/settings.module';
 import { SharedModule } from 'app/shared/shared.module';
+import { EmptyLayoutModule } from './layouts/empty/empty.module';
 
 const layoutModules = [
+    EmptyLayoutModule,
     EnterpriseLayoutModule,
 ];
 
